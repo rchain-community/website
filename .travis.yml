@@ -1,0 +1,11 @@
+deploy:
+  provider: s3
+  access_key_id: AKIAIGQ332GK3EKNUBQQ
+  secret_access_key:
+    secure: dOkQfyvCIgFqeZoTjA2l2jjB6NjcoOSZZTxHJnRHL17DmceLEaqaku9s3dXP60GzYxmaUjmGmBm6BZPfp76tTwxRnOEMQb8/39EcVD/GBgBRXU1AwUlGUwz/73Aa5tj0O3YRXBqj8FtTziwNCzn638ZAfF64k6f2Jo7svIWsVYEw0iZ5ORuQftfXQnc02J2xcpvrI+p1VP4dqAAHa8tAcT8Zt1b6qmvFHjrMb5sybu1FaVlGEuoESVySQg4PrVXxl8Hk2cumnB96NCFe/VEA+tHSWqLokfgHSkSda/7LB4lBaSJViSHeGtrzG0/G1GdXcJYM9LkNmGkesuWmUmjSyyzFlHXUeMelMDdYDM6w7jNrF0jsYaCFZAi9Imw939YnQF++Mkv2PC3P4vfE3utcztOLp5BkHekZc745L4K0LF2AHqHNbqJ3c0fj9qxapLQVBxZOARfhwqU1iFF2vni87H5GTYc3r1LGsZomrB7R0K4dNHFGzEeTa4KghemgqBJ3t7RejjCqm2JrWdbHp9B1IjtNK7sl0J7wtnEf5EOI9StdSySgT7JKtXhmOQ8eEFve5xGDcEXd3IFHfinuEHQ9GkT0qp5lVlsxWT3sKmPPSJdlh5GU9E4NFxNPPFcaPU9K7YvsYeYNLsWaNTA/u1v+9WLVtIQZQBrIeutZK9BWECE=
+  bucket: rchaincommunity.com
+  local-dir: "."
+  upload-dir: "."
+  acl: public_read
+  on:
+    repo: rchain-community/website
